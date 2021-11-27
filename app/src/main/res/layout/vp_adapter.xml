@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="367dp"
+        android:layout_height="304dp"
+        android:src="@drawable/fast1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Быстрая\n доставка!"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ппыапавпаыпаыв ываывлалывавыа аываыва ываываыва цууцуцц уцацуацу ацуацуацуацу фыывфвыффы ыфвфыв
+adfsafas asfasf fasfasfa afsfasf fasfasf asfas"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
